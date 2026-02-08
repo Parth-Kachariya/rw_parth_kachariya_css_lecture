@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f5f5f5;
+}
+.container {
+  width: 1320px;
+  height: 100vh;
+  margin: auto;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.box {
+  width: 600px;
+  height: 100px;
+  background: #fff;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.round {
+    corner-shape: round;
+}
+
+.squircle {
+    corner-shape: squircle;
+}
+.scoop {
+    corner-shape: scoop;
+}
+.bevel {
+    corner-shape: bevel;
+}
+.notch {
+    corner-shape: notch;
+}
